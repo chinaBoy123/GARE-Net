@@ -1,1 +1,12 @@
-bbb
+spring:
+  application:
+    name: microservice-userinfo
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chinaBoy123/myRepo
+server:
+  port: 10001
+
+
