@@ -14,7 +14,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset', default='coco_precomp',
                         help='coco or f30k')
-    parser.add_argument('--model_path', default='/home/ubuntu/Students/zhoutao/code_updated/PFGR/runs/runX/checkpoint/coco_bert/model_best_t2i.pth')
+    parser.add_argument('--model_path', default='/home/ubuntu/Students/zhoutao/code_updated/GARE-Net/runs/runX/checkpoint/coco_bert/model_best_t2i.pth')
     parser.add_argument('--data_path', default='/home/ubuntu/Students/zhoutao/data/')
     parser.add_argument('--save_results', action='store_false') # store_true
     parser.add_argument('--evaluate_cxc', action='store_true')

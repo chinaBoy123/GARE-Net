@@ -1,4 +1,4 @@
-"""PFGR model"""
+"""GARE-Net model"""
 import numpy as np
 
 import torch

@@ -32,9 +32,9 @@ def get_argument_parser():
                         help='Number of steps to logger.info and record the log.')
     parser.add_argument('--val_step', default=500, type=int,
                         help='Number of steps to run validation.')
-    parser.add_argument('--logger_name', default='/home/ubuntu/Students/zhoutao/code_updated/PFGR/runs/runX/log', #
+    parser.add_argument('--logger_name', default='/home/ubuntu/Students/zhoutao/code_updated/GARE-Net/runs/runX/log', #
                         help='Path to save Tensorboard log.')
-    parser.add_argument('--model_name', default='/home/ubuntu/Students/zhoutao/code_updated/PFGR/runs/runX/checkpoint', #
+    parser.add_argument('--model_name', default='/home/ubuntu/Students/zhoutao/code_updated/GARE-Net/runs/runX/checkpoint', #
                         help='Path to save the model.')
     parser.add_argument('--resume', default='', type=str, metavar='PATH',
                         help='path to latest checkpoint (default: none)')

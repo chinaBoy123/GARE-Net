@@ -68,7 +68,7 @@ def main():
 
     model = Model(opt)
     
-    # checkpoint = torch.load('/home/ubuntu/Students/zhoutao/code_updated/PFGR/runs/runX/checkpoint/f30k_bert/model_best.pth')
+    # checkpoint = torch.load('/home/ubuntu/Students/zhoutao/code_updated/GARE-Net/runs/runX/checkpoint/f30k_bert/model_best.pth')
     # model.load_state_dict(checkpoint['model'])
 
     lr_schedules = [opt.lr_update, ]
