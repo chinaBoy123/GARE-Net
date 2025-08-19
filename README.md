@@ -16,7 +16,7 @@ The workflow of GARE-Net
 <img src="https://raw.githubusercontent.com/chinaBoy123/GARE-Net/main/figures/garenet.png" width="745" alt="workflow" />
 
 ## Download data
-Download the dataset files. We use the dataset files created by SCAN [Kuang-Huei Lee](https://github.com/kuanghuei/SCAN). The box features of Flickr30K and MSCOCO are extracted from the raw Flickr30K images using the bottom-up attention model from here. 
+Download the dataset files. We use the dataset files created by SCAN [Kuang-Huei Lee](https://github.com/kuanghuei/SCAN). The box features of Flickr30K and MSCOCO are extracted from the raw Flickr30K images using the bottom-up attention model from [here](https://github.com/peteanderson80/bottom-up-attention). 
 
 ## Training new models
 To train Flickr30K and MS-COCO models:
