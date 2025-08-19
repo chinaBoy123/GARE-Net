@@ -41,5 +41,5 @@ sh scripts/eval.sh
 
 | |Visual Backbone|Text Backbone|R1|R5|R10|R1|R5|R10|
 |---|:---:|:---:|---|---|---|---|---|---|
-|CHAN | BUTD region |GRU-base|**80.8**|**96.0**|**98.2**|**60.9**|**86.1**|**91.2**|
-|CHAN | BUTD region |BERT-base|**81.9**|**95.9**|**98.6**|**65.3**|**89.4**|**93.7**|
+|GARE-Net | BUTD region |GRU-base|**80.8**|**96.0**|**98.2**|**60.9**|**86.1**|**91.2**|
+|GARE-Net | BUTD region |BERT-base|**81.9**|**95.9**|**98.6**|**65.3**|**89.4**|**93.7**|
