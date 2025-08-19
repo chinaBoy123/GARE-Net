@@ -2,8 +2,10 @@
 GARE-Net: Geometric Contextual Aggregation and
 Regional Contextual Enhancement Network for
 Image-Text Matching
+
 ## Introduction
 This is the source code of GARE-Net. It is built on top of the CHAN in PyTorch.
+
 ## Requirements and Installation
 We recommended the following dependencies.
 * Python 3.9.18
@@ -11,18 +13,22 @@ We recommended the following dependencies.
 * [NumPy](http://www.numpy.org/) (>=1.26.2)
 * [TensorBoard](https://github.com/TeamHG-Memex/tensorboard_logger)
 The workflow of GARE-Net
-<img src="https://raw.githubusercontent.com/smileslabsh/Generative-Label-Fused-Network/main/figures/main.png" width="745" alt="workflow" /> 
+<img src="https://raw.githubusercontent.com/chinaBoy123/GARE-Net/main/figures/garenet.png" width="745" alt="workflow" />
+
 ## Download data
 Download the dataset files. We use the dataset files created by SCAN [Kuang-Huei Lee](https://github.com/kuanghuei/SCAN). The box features of Flickr30K and MSCOCO are extracted from the raw Flickr30K images using the bottom-up attention model from here. 
+
 ## Training new models
 To train Flickr30K and MS-COCO models:
 ```bash
 sh scripts/train.sh
 ```
+
 ## Evaluation
 ```bash
 sh scripts/eval.sh
 ```
+
 ## Results
 #### Results on COCO 1K Test Split
 
