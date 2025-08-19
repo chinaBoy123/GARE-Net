@@ -25,11 +25,14 @@ sh scripts/eval.sh
 ```
 ## Results
 #### Results on COCO 1K Test Split
+
 | |Visual Backbone|Text Backbone|R1|R5|R10|R1|R5|R10|
 |---|:---:|:---:|---|---|---|---|---|---|
 |GARE-Net | BUTD region |GRU-base|**84.2**|**96.7**|**98.4**|**65.5**|**91.6**|**96.0**|
 |GARE-Net | BUTD region |BERT-base|**84.5**|**97.0**|**99.1**|**67.4**|**92.0**|**96.6**|
+
 #### Results on Flickr30K Test Split
+
 | |Visual Backbone|Text Backbone|R1|R5|R10|R1|R5|R10|
 |---|:---:|:---:|---|---|---|---|---|---|
 |CHAN | BUTD region |GRU-base|**80.8**|**96.0**|**98.2**|**60.9**|**86.1**|**91.2**|
