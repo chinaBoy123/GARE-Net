@@ -5,6 +5,7 @@ Image-Text Matching
 
 ## Introduction
 This is the source code of GARE-Net. It is built on top of the CHAN in PyTorch.
+
 <img src="https://raw.githubusercontent.com/chinaBoy123/GARE-Net/main/figures/garenet.png" width="745" alt="workflow" />
 
 ## Requirements and Installation
