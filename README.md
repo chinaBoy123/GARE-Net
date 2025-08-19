@@ -1,5 +1,6 @@
-## Generative-Label-Fused-Network
-Generative Label Fused Network for Image-Text Matching
+GARE-Net: Geometric Contextual Aggregation and
+Regional Contextual Enhancement Network for
+Image-Text Matching
 
 ## Introduction
 
