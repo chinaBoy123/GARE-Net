@@ -5,6 +5,8 @@ Image-Text Matching
 
 ## Introduction
 This is the source code of GARE-Net. It is built on top of the CHAN in PyTorch.
+The workflow of GARE-Net
+<img src="https://raw.githubusercontent.com/chinaBoy123/GARE-Net/main/figures/garenet.png" width="745" alt="workflow" />
 
 ## Requirements and Installation
 We recommended the following dependencies.
@@ -12,8 +14,6 @@ We recommended the following dependencies.
 * [PyTorch](http://pytorch.org/) 2.2.2
 * [NumPy](http://www.numpy.org/) (>=1.26.2)
 * [TensorBoard](https://github.com/TeamHG-Memex/tensorboard_logger)
-The workflow of GARE-Net
-<img src="https://raw.githubusercontent.com/chinaBoy123/GARE-Net/main/figures/garenet.png" width="745" alt="workflow" />
 
 ## Download data
 Download the dataset files. We use the dataset files created by SCAN [Kuang-Huei Lee](https://github.com/kuanghuei/SCAN). The box features of Flickr30K and MSCOCO are extracted from the raw Flickr30K images using the bottom-up attention model from [here](https://github.com/peteanderson80/bottom-up-attention). 
