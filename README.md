@@ -1,3 +1,4 @@
+## Generative-Label-Fused-Network
 GARE-Net: Geometric Contextual Aggregation and
 Regional Contextual Enhancement Network for
 Image-Text Matching
@@ -9,12 +10,12 @@ This is the source code of Generative Label Fused Network, an approch for Image-
 ## Requirements and Installation
 We recommended the following dependencies.
 
-* Python 2.7
-* [PyTorch](http://pytorch.org/) 0.3
-* [NumPy](http://www.numpy.org/) (>1.12.1)
+* Python 3.9.18
+* [PyTorch](http://pytorch.org/) 2.2.2
+* [NumPy](http://www.numpy.org/) (>1.26.2)
 * [TensorBoard](https://github.com/TeamHG-Memex/tensorboard_logger)
 
-The workflow of GLFN
+The workflow of Gare-Net
 
 <img src="https://raw.githubusercontent.com/smileslabsh/Generative-Label-Fused-Network/main/figures/main.png" width="745" alt="workflow" /> 
 
@@ -25,10 +26,7 @@ Download the dataset files. We use the dataset files created by SCAN [Kuang-Huei
 
 To train Flickr30K and MS-COCO models:
 ```bash
-sh run_train.sh
+sh train.sh
 ```
 ## Results
-|            | i2t-1    |i2t-5    |i2t-10    |t2i-1    |t2i-5    |t2i-10    |
-| :---------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-| Flickr30K | 75.1  | 93.8  |  97.2  | 54.5  | 82.8  |  89.9  |
-| MSCOCO | 78.4  | 96.0  |  98.5  | 62.6  | 89.6  |  95.4  |
+
