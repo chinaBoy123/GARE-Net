@@ -46,10 +46,10 @@ class EncoderImagePrecomp(nn.Module):
         self.position_embedding = nn.Embedding(self.position_size + 1, self.position_embed_size)
         self.fc = nn.Linear(img_dim + self.position_embed_size, embed_size)
         self.fc_att = nn.Linear(img_dim, position_embed_size) # 2048 => 200
-        self.Rs_GCN_1 = Rs_GCN(in_channels=embed_size, inter_channels=embed_size)
-        self.Rs_GCN_2 = Rs_GCN(in_channels=embed_size, inter_channels=embed_size)
-        self.Rs_GCN_3 = Rs_GCN(in_channels=embed_size, inter_channels=embed_size)
-        self.Rs_GCN_4 = Rs_GCN(in_channels=embed_size, inter_channels=embed_size)
+        self.Rs_GCN_1 = Rs_GCN(nfeat=embed_size, nhid=embed_size, nclass=embed_size, dropout=0.5)
+        self.Rs_GCN_2 = Rs_GCN(nfeat=embed_size, nhid=embed_size, nclass=embed_size, dropout=0.5)
+        self.Rs_GCN_3 = Rs_GCN(nfeat=embed_size, nhid=embed_size, nclass=embed_size, dropout=0.5)
+        self.Rs_GCN_4 = Rs_GCN(nfeat=embed_size, nhid=embed_size, nclass=embed_size, dropout=0.5)
         if precomp_enc_type=="basic":
             self.feedforward = nn.Identity()
         elif precomp_enc_type=="selfattention":
