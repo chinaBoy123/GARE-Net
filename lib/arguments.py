@@ -78,7 +78,5 @@ def get_argument_parser():
                         help='inversed temperature of softmax in scan coding.')
     parser.add_argument('--belta', type=float, default=0.1,
                         help='inversed temperature of softmax in pooling.')
-    parser.add_argument('--seed', default=2022, type=int,
-                        help='random seed')
     parser.add_argument('--schema', default='random', type=str)
     return parser
