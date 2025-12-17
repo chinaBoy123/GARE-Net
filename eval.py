@@ -18,10 +18,7 @@ def main():
     parser.add_argument('--data_path', default='/home/ubuntu/Students/zhoutao/data/')
     parser.add_argument('--save_results', action='store_false') # store_true
     parser.add_argument('--evaluate_cxc', action='store_true')
-    parser.add_argument('--seed', default=2022, type=int, help='random seed')
     opt = parser.parse_args()
-
-    set_seeds(opt.seed)
 
     if not os.path.exists(opt.model_path):
         logger.info("Model path '%s' does not exist"%(opt.model_path))
